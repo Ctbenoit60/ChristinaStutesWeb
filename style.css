@@ -7,7 +7,7 @@
 * {
     font-family: 'Inter';
     text-align: center;
-    background-color: pink;
+    background-color: hsl(350, 100%, 88%);
 }
 
 nav {
@@ -42,4 +42,8 @@ h1 {
 
   .header__social > svg > path {
     transition: fill var(--transition);
+  }
+
+  .header__social:hover > svg > path {
+    fill: black;
   }
