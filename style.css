@@ -60,3 +60,11 @@ img {
     text-align: center;
 }
 
+.resume {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1%;
+}
+
