@@ -11,7 +11,27 @@
 
 body {
     background-color: hsl(350, 100%, 88%);
+    margin: 0;
+    line-height: 1.56;
+    padding-bottom: 25rem;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 
 /* Nav Bar */
 header {
