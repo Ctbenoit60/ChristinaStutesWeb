@@ -127,8 +127,11 @@ img {
 .resume {
     text-decoration: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     padding-top: 1%;
+}
+a:hover {
+  color: black;
 }
 
